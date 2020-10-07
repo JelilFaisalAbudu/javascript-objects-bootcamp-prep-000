@@ -12,10 +12,3 @@ function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
 }
 
-console.log(playlist);
-updatePlaylist(playlist, 'MzVee', 'Davi');
-
-console.log(playlist);
-
-removeFromPlaylist(playlist, 'sarkordie');
-console.log(playlist);
