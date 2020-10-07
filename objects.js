@@ -8,10 +8,7 @@ function updatePlaylist(playlist, artist, songTitle) {
   playlist[artist] = songTitle;
 }
 
-function removeFromPlaylist(playlist, artist) {
-  delete playlist.artist;
-  
-}
+
 
 console.log(playlist);
 updatePlaylist(playlist, 'MzVee', 'Davi');
